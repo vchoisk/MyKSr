@@ -1,0 +1,5 @@
+<div>
+5 People that Myksr recommend for you to have lunch with today!
+  <div class="showpic" ng-repeat='friend in bestFits | filter:query' ng-click="clickFriend(currentUser, friend)">
+		<img class="img-circle friend-pic"ng-src="{{friend.pic}}" />
+</div>
