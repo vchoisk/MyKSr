@@ -54,6 +54,7 @@ myksr.controller('appCtrl', function($scope, $window, information, $http){
   }
 
   $scope.isSignedIn = function(){
+
     if(information.currentUser){
       return true;
     } else {
